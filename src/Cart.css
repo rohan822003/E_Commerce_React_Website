@@ -1,0 +1,58 @@
+h1.cartheading{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 24px;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for each individual item within the cart */
+.cartItem {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Styles for the images within each cart item */
+.cartItem img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* Styles for the description or details section of each cart item */
+.cartItem .description {
+    flex: 1;
+    font-size: 20px;
+}
+
+/* Styles for the quantity input field */
+.countHandler input {
+    width: 60px;
+    margin: 0px;
+    margin-right: 2px;
+    height: 38px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.price{
+    font-size: 20px;
+}
+
+
+
